@@ -605,3 +605,9 @@ let infer =
       IMNone
   | _ ->
       infer
+
+(* tjr: enable statmemprof *)
+
+let _ = Memtrace.trace_if_requested ()
+
+

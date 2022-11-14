@@ -13,6 +13,6 @@
 
 (executable
   (name main)
-  (libraries unix fix menhirLib menhirSdk)
+  (libraries unix fix menhirLib menhirSdk memtrace)
   (flags :standard -open MenhirSdk)
 )
